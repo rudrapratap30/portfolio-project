@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
+  "homepage": "https://rudrapratap30.github.io/portfolio-website/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "serve -s dist",
-    "check": "tsc"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -42,6 +43,7 @@
     "autoprefixer": "^10.4.20",
     "cross-env": "^10.0.0",
     "esbuild": "^0.25.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.17",
     "tsx": "^4.19.1",
